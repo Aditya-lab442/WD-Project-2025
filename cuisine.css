@@ -1,46 +1,54 @@
 body{
     background-image: linear-gradient(to bottom right,#1B4332,#74C69D,#B7E4C7);
+    align-items: center;
 }
-.header h1{
-    background-color: #D8F3DC;
+body h1{
     text-align: center;
-    padding: 10px;
-    width: fit-content;
-    border-radius: 10px;
-    margin-left: 450px; 
-    transition: transform 1s;
-    color:black;
 }
-h1:hover{
-    transform: scale(1.1);
-}
-a:hover{
-    text-decoration: underline;
-    
-}
-
-.header mark{
-    background-color: #1B4332;
-    color: white;
+.links{
+    display: flex;
+    gap: 230px;
+    padding: 20px;
+    color: beige;
+    background-color: black;
+    position: sticky;
+    top: 2px;
+    border-radius: 30px;
+    font-size: larger;
 }
 .header p{
     text-align: center;
     font-size: larger;
 }
-.links{
-    background-color: black;
-    height: 60px;
-    border-radius: 30px;
-    padding-top: 20px;
-    box-sizing: border-box;
-}
-.link{
+a{
     text-decoration: none;
-    font-size: x-large;
-    display: inline;
-    padding-inline: 90px;
-    margin-bottom: 10px;
-    color: beige;  
+    color: beige;
+}
+a:hover{
+    text-decoration: underline;
+}
+.content{
+    text-align: center;
+}
+h1{
+    background-color: #D8F3DC;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    width: fit-content;
+    margin-left: 480px; 
+    transition: transform 1s;
+    color:black;
+}
+ul{
+    text-align: center;
+}
+h1:hover{
+    transform: scale(1.1);
+}
+.audio{
+    text-align: center;
+    text-decoration: #1B4332;
 }
 .content h2{
     font-size: x-large;
@@ -54,27 +62,14 @@ a:hover{
 }
 .content p{
     font-size: larger;
-
+    
     padding: 5px;
     padding: 8px;
     text-align: center;
     
 }
 .content img{
-    border-radius: 5px;
-}
-.content ul li{
-    font-size: larger;
-}
-.content mark{
-    background-color: #1B4332;
-    color: white;    
-}
-.content ol li{
-    text-decoration: none;
-}
-.lists{
-    font-size: large;
+    border-radius: 20px;
 }
 .footer{
     font-size: larger;
@@ -97,4 +92,3 @@ a:hover{
 img:hover{
     transform: scale(1.05);
 }
-
