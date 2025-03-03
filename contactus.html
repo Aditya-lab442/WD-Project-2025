@@ -5,75 +5,88 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./contact_us.css">
 </head>
 
 <body>
-    <div>
-        <ul>
-            <li><a href="./HomePage.html" target="_blank">Home</a></li>
-            <li><a href="./culture.html" target="_blank">Culture</a></li>
-            <li><a href="./landmark.html" target="_blank">Landmark</a></li>
-            <li><a href="./cuisine_page.html" target="_blank">Cuisine</a></li>
-            <li><a href="./contactus.html" target="_blank">Contact us</a></li>
-        </ul>
+    <div class="links">
+
+        <a href="./HomePage.html" target="_blank">Home</a>
+        <a href="./culture.html" target="_blank">Culture</a>
+        <a href="./landmark.html" target="_blank">Landmark</a>
+        <a href="./cuisine_page.html" target="_blank">Cuisine</a>
+        <a href="./contactus.html" target="_blank">Contact us</a>
+
     </div>
-    <div>
+    <div class="content">
         <h1>Contact Us</h1>
-    </div>
-    <div>
         <p>Please fill out the form below for any inquiries or to register as student</p>
         <h3>Student Regestration Form</h3>
-        <form action="">
+        <table align="center">
+            <form action="">
+                <tr>
+                    <td><label for="fname">First Name:</label></td>
 
+                    <td><input type="text" placeholder="Enter your first name" name="fname" id="fname"></td>
+                </tr>
+                <tr>
+                    <td><label for="pass">Password:</label></td>
 
+                    <td><input type="password" name="pass" id="pass"></td>
 
-            <p><label for="fname">First Name:</label>
+                </tr>
+                <tr>
+                    <td>Gender:</td>
 
-                <input type="text" placeholder="Enter your first name" name="fname" id="fname">
-            </p>
+                    <td>
+                        <input type="radio" name="Gender" value="male" id="male"><label for="male">Male</label>
+                        <input type="radio" name="Gender" value="fmale" id="fmale"><label for="fmale">Female</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2"><label for="sub">Subscribe to Newsletter</label><input type="checkbox" id="sub"
+                            value="Subscribe" checked></td>
+                </tr>
+                <tr>
+                    <td><label for="">State</label></td>
+                    <td>
+                        <select name="state" id="">
+                            <option value="select" disabled selected>Select your State</option>
+                            <option value="Gujarat">Gujarat</option>
+                            <option value="Punjab">Punjab</option>
+                            <option value="rajasthan">Rajasthan</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">Upload Resume: <input type="file"></td>
+                </tr>
+                <tr>
+                    <td>Address: </td>
+                    <td><textarea name="address" id="address" rows="3" cols="20"></textarea></td>
+                </tr>
+                <tr>
+                    <td>Date of Birth:</td>
+                    <td><input type="date" name="dob"></td>
+                </tr>
+                <tr>
+                    <td>Interview time:</td>
+                    <td><input type="time"></td>
+                </tr>
+                <tr>
+                    <td>marks:</td>
+                    <td><input type="text" name="marks"></td>
+                </tr>
+                <tr>
+                    <td><button type="submit">Submit</button></td>
+                    <td><button type="reset">Reset</button></td>
+                </tr>
+            </form>
+        </table>
 
-
-            <p><label for="pass">Password:</label>
-
-                <input type="password" name="pass" id="pass">
-            </p>
-
-            <p>Gender:
-
-
-                <input type="radio" name="Gender" value="male" id="male"><label for="male">Male</label>
-                <input type="radio" name="Gender" value="fmale" id="fmale"><label for="fmale">Female</label>
-            </p>
-
-            <p><label for="sub">Subscribe to Newsletter</label><input type="checkbox" id="sub" value="Subscribe" checked></p>
-
-            <p><label for="">State</label>
-
-                <select name="state" id="">
-                    <option value="select" disabled selected>Select your State</option>
-                    <option value="Gujarat">Gujarat</option>
-                    <option value="Punjab">Punjab</option>
-                    <option value="rajasthan">Rajasthan</option>
-                </select>
-            </p>
-            <p>
-                Upload Resume: <input type="file">
-            </p>
-            <p>
-                Address: <textarea name="address" id="address" rows="3" cols="20"></textarea>
-            </p>
-            <p> Date of Birth: <input type="date" name="dob"></p>
-            <p>Preferred Interview time: <input type="time"></p>
-            <p>marks: <input type="text" name="marks"></p>
-            <button type="submit">Submit</button>
-            <button type="reset">Reset</button>
-        </form>
-    </div>
-    <div>
         <h3>More Information</h3>
         <p>Explore Goverment job opportunities on the official OJAS website.</p>
-    </div>
-    <div>
+
         <iframe src="https://ojas.gujarat.gov.in/" frameborder="0"></iframe>
     </div>
     <div>
@@ -82,13 +95,14 @@
     <div>
         <p></p>
     </div>
-    <div>
+    <div class="footer">
         <a href="./HomePage.html" target="_parent">Back to Home</a>
+
+        <p>Contact us at <a href="">info@incredibleindia.com</a></p>
+        <p></p>
+        <p></p>
+        <p>&copy; 2025 Incredible India Project</p>
     </div>
-    <p>Contact us at <a href="">info@incredibleindia.com</a></p>
-    <p></p>
-    <p></p>
-    <p>&copy; 2025 Incredible India Project</p>
 </body>
 
 </html>

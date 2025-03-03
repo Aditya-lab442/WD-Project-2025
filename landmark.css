@@ -1,0 +1,88 @@
+body{
+    background-image: linear-gradient(to bottom right,#1B4332,#74C69D,#B7E4C7);
+    align-items: center;
+}
+.links{
+    display: flex;
+    gap: 230px;
+    padding: 20px;
+    color: beige;
+    background-color: black;
+    position: sticky;
+    top: 2px;
+    border-radius: 30px;
+    font-size: larger;
+}
+a{
+    text-decoration: none;
+    color: beige;
+}
+a:hover{
+    text-decoration: underline;
+}
+h1{
+    background-color: #D8F3DC;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    width: fit-content;
+    margin-left: 480px; 
+    transition: transform 1s;
+    color:black;
+}
+h1:hover{
+    transform: scale(1.1);
+}
+.header{
+    text-align: center;
+}
+.content h2{
+    font-size: x-large;
+    text-align: center;
+    background-color: #1B4332;
+    padding: 10px;
+    color: beige;
+}
+mark{
+    background-color: #1B4332;
+    color: white;
+}
+.content{
+    text-align: center;
+}
+.content p{
+    font-size: larger;
+    
+    padding: 5px;
+    padding: 8px;
+    text-align: center;
+    
+}
+.content img{
+    border-radius: 20px;
+}
+.content img{
+    border-radius: 20px;
+    transition: transform 2s;
+    box-shadow: -10px -10px 10px black;
+}
+img:hover{
+    transform: scale(1.05);
+}
+.footer{
+    font-size: larger;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+.footer a{
+    text-decoration: none;
+    color: #1B4332;
+}
+.footer a:hover{
+    text-decoration: underline;
+}
+table{
+    width: 100%;
+    font-size: larger;
+}
