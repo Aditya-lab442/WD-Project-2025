@@ -86,3 +86,25 @@ table{
     width: 100%;
     font-size: larger;
 }
+@media (max-width:600px) {
+    body{
+        text-align: center !important;
+    }
+    h1{
+        margin-left: 40% !important;
+        font-size: large;
+    }
+    .links{
+        display: block !important;
+        height: fit-content;
+        margin-bottom: 20px;
+        clear: both;
+    }
+    .links a{
+        display: block;
+    }
+    img{
+        height: 300px !important;
+        width: 400px !important;
+    }
+}

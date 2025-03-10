@@ -47,12 +47,26 @@ mark{
     background-color: #1B4332;
     color: white;
 }
-.content{
+.content h3{
     text-align: center;
+}
+td{
+    font-size: larger;
+    font-weight: 600;
+}
+textarea{
+    width: 370px;
+}
+#fname{
+    width: 370px;
+    height: 30px;
+}
+#pass{
+    width: 370px;
+    height: 30px;
 }
 .content p{
     font-size: larger;
-    
     padding: 5px;
     padding: 8px;
     text-align: center;
@@ -83,6 +97,38 @@ img:hover{
     text-decoration: underline;
 }
 input:focus{
-    border: 2px solid #1B4332;
-    background-color: #B7E4C7;
+    border: 2px dotted black;
+}
+button{
+    height: 30px;
+    width: 180px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: white;
+    color: black;
+}
+@media (max-width:600px) {
+    body{
+        text-align: center !important;
+    }
+    h1{
+        margin-left: 40% !important;
+        font-size: large;
+    }
+    .links{
+        display: block !important;
+        height: fit-content;
+        margin-bottom: 20px;
+        clear: both;
+    }
+    .links a{
+        display: block;
+    }
+    img{
+        height: 300px !important;
+        width: 400px !important;
+    }
 }
